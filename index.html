@@ -4,8 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio_for_graphic_designer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html,body{
+            width: 100%;
+            height: 100%;        }
+    </style>
 </head>
 <body>
-    
+    <!-- main  -->
+    <div class="main h-screen w-screen overflow-x-hidden lg:flex lg:flex-col lg:gap-[1em]">
+        <!-- nav -->
+        <div class="nav w-full py-3 px-8 flex justify-between items-center">
+            <h2 class="text-xl font-semibold">Hello</h2>
+            <div class="nav_links hidden md:inline  md:flex md:gap-12 md:items-center md:font-medium text-base">
+                <a class="" href="#about">About</a>
+                <a class="" href="#">Work</a>
+                <a class="" href="#">Skills</a>
+                <a class="" href="#">Contact</a>
+
+            </div>
+            <i class="text-xl font-semibold ri-menu-3-fill md:hidden"></i>
+        </div>
+    </div>
+
 </body>
 </html>
