@@ -1,0 +1,30 @@
+#work{
+     animation-name: move;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+}
+@keyframes move {
+    from {
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+
+#work_art{
+    animation-name: move_art;
+   animation-duration: 20s;
+   animation-timing-function: linear;
+   animation-iteration-count:infinite;
+}
+@keyframes move_art {
+   from {
+       transform: translateX(-100%);
+   }
+   to{
+       transform: translateX(0);
+   }
+}
